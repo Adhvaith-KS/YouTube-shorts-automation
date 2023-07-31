@@ -133,7 +133,7 @@ def contentspeech(speechtopic, speech):
     return (speechtopic+".mp3")
     # os.system(speechtopic+".mp3")
 
-def aimusic():
+def aimusic():  #downloaded a bunch of AI generated music to avoid copyright issues. This process can be baked into the program too but it's an unnecessary step that increases the time taken to produce a short, so I just downloaded it.
     randmusic= random.randint(1,4)
     if randmusic==1:
         song= "aimusic1.mp3"
@@ -190,7 +190,7 @@ def mainprog():
                 picdesc= input("What images should be searched?: ")
                 break
             else:
-                print("Alright, let's try this again my g")
+                print("Alright, let's try this again")
                 continue
 
             
